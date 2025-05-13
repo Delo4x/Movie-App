@@ -1,4 +1,3 @@
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 import React from 'react'
 import { Tabs } from 'expo-router'
 
@@ -8,6 +7,7 @@ const _layout = () => {
         <Tabs.Screen
         name="index"
         options={{
+            title: "Home",
             headerShown: false 
             }}>
         </Tabs.Screen>
@@ -40,5 +40,3 @@ const _layout = () => {
 }
 
 export default _layout
-
-const styles = StyleSheet.create({})
