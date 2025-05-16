@@ -3,6 +3,10 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": ["app/assets/*"]
+    }
 
   },
   "include": [
